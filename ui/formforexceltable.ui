@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormForExcelTable</class>
+ <widget class="QWidget" name="FormForExcelTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>747</width>
+    <height>83</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="layoutItem">
+     <item>
+      <widget class="QLabel" name="IdLbl">
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="DayLbl">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+       <property name="text">
+        <string>Day</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="TimeLbl">
+       <property name="maximumSize">
+        <size>
+         <width>130</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+       <property name="text">
+        <string>Time</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="EndTimeLbl">
+       <property name="maximumSize">
+        <size>
+         <width>130</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+       <property name="text">
+        <string>EndTime</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="FileNameLbl">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+       <property name="text">
+        <string>FileName</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="DeleteBtn">
+       <property name="maximumSize">
+        <size>
+         <width>60</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>حذف</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

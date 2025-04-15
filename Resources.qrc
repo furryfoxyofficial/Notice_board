@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/IconApp">
+        <file>App-Icon.png</file>
+        <file>App-Logo.png</file>
+        <file>Logo-in-App.jpg</file>
+        <file>excel_bg.jpg</file>
+    </qresource>
+</RCC>

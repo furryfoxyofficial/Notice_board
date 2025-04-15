@@ -1,0 +1,11 @@
+./App
+./build
+./source
+./header
+*.xlsx
+*.jpg
+QXlsx.pro
+QXlsx.pri
+./cmake
+*.txt
+*.user

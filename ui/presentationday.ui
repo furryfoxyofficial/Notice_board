@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PresentationDay</class>
+ <widget class="QDialog" name="PresentationDay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>اضافه کردن به لیست</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QComboBox" name="Day">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>شنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>یکشنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>دوشنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>سهشنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>چهارشنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>پنجشنبه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>جمعه</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTimeEdit" name="Time">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="displayFormat">
+      <string>hh:mm:ss AP</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTimeEdit" name="EndTime">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="displayFormat">
+      <string>hh:mm:ss AP</string>
+     </property>
+     <property name="time">
+      <time>
+       <hour>20</hour>
+       <minute>0</minute>
+       <second>0</second>
+      </time>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="AddressBar">
+     <item>
+      <widget class="QPushButton" name="Addressbtn">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Addresstxt">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Okbtn">
+     <property name="text">
+      <string>ثبت اطلاعات</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="Cancelbtn">
+     <property name="text">
+      <string>انصراف</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
